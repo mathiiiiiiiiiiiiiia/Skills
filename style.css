@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: gainsboro;
+}
+/*NAAAAAAV (buenos dias :D)*/
+
+.content-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1{
+    margin-left: 40px;
+}
+
+.nav-1 img{
+    height:100px;
+    transition: transform 0.4s ease;
+}
+
+.nav-1 img:hover{
+    transform: scale(1.1);
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 0 auto;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 40px;
+}
+
+.nav-links a {
+    color: white;
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 2px;
+}
+.logos{
+    margin: 40px;
+    padding-right:40px ;
+}
+
+/*Viene a ser una presentacion y links ;D*/
+
+.presentation{
+    padding-top: 50px;
+    height: 400px;
+    background-color: rgb(171, 171, 171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation h1{
+    font-size: 50px;
+    font-family: poppins;
+}
+
+.presentation h2{
+    font-family: poppins;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.links{
+    margin-top: 50px;
+    font-family: poppins;
+    display: flex;
+}
+
+.links a{
+    text-decoration: none;
+    color: #000;
+    padding-right:20px ;
+    padding-left: 20px;
+    transition: transform 0.4s ease;
+    font-weight: 500;
+}
+.links a:hover{
+    transform: translateY(-5px);
+}
+.links p{
+    font-size: 20px;
+}
+
+/*TECNOLOGIAS WEWEEB*/
+
+.title h2{
+    font-size: 60px;
+    font-family: poppins;
+    border-bottom: 2px solid #000000;
+}
+
+/*los papis :DDD*/
+
+.padre{
+    display: flex;
+    padding-top: 50px;
+}
+
+.madre{
+    display: flex;
+    padding-top: 50px;
+}
+/*SIGUELA COMPAAII*/
+.html5{
+    height: 500px;
+    transition: transform 0.4s ease;
+}
+.html5:hover{
+    transform: scale(1.1);
+}
+.css3{
+    height: 500px;
+    margin-left: 100px;
+    transition: transform 0.4s ease;
+}
+.css3:hover{
+    transform: scale(1.1);
+}
+
+
+
+.Tecnologías_Web{
+    width: 100%;
+    height: 200vh;
+    background: #ffffff;
+    padding-top: 100px;
+
+}
+
+.skills{
+    padding-top:80px; 
+    margin-left: 100px;
+}
+.skills2{
+    padding-top: 100px;
+    margin-left: 200px;
+    font-family: poppins;
+}
+
+.skills h2{
+    font-weight:600 ;
+    letter-spacing: 1px;
+    font-family: poppins;
+    margin-top: 40px;
+    margin-bottom: 5px ;
+    color: #000000;
+    font-size: 16px;
+}
+
+
+/*BARRAS DE PROGRESOOOO*/
+
+.barra-de-progreso{
+    background-color: #959595;
+    width: 600px;
+    height: 20px;
+    border-radius: 5px;
+}
+.barra-de-progreso p{
+    font-family: poppins;
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.barra-de-progreso div{
+    height: 20px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.barra-de-progreso div span{
+    height: 50px;
+    width: 50px;
+    border-radius: 50% ;
+    font-family: poppins;
+    background: #000000;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.html{
+    background:red;
+    animation: html 1s linear forwards;
+}
+.css{
+    background: cyan;
+    animation: css 1s linear forwards;
+}
+
+.js{
+    background:rgb(225, 255, 0);
+    animation: js 1s linear forwards;
+}
+
+.html span{
+    border: 1px solid rgb(255, 0, 0);
+}
+.css span{
+    border: 1px solid cyan;
+}
+
+.js span{
+    border: 1px solid yellow;
+}
+@keyframes html{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes js{
+    100%{
+        width: 20%;
+    }
+}
+/*LENGUAJES DE PROGRAMACIOOON ASDJASDAWJD*/
+
+.Lenguajes_de_Programación{
+    width: 100%;
+    height: 170vh;
+    background: #e2e2e2;
+    padding-top: 50px;
+}
+
+.javascript{
+    height: 500px;
+    margin-left: 40px;
+    transition: transform 0.4s ease;
+}
+.javascript:hover{
+    transform: scale(1.1);
+}
+
+.skills3{
+    padding-top: 100px;
+    margin-left: 135px;
+    font-family: poppins;
+}
+
+/*LENGAUJES POR APRENDEER*/
+
+.aunPorAprender h2{
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.aun_por_aprender{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.lenguaje{
+    background-color: #000;
+    height: 350px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: transform 0.4s ease;
+}
+
+.lenguaje:hover{
+    transform: translateY(-15px);
+}
+.lenguaje h3{
+    color: #fff;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+}
+
+.log{
+    height: 250px;
+}
+
+.C#text{
+    font-size: 80px;
+    color: #fff;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.C#h3{
+    padding-top: 50px;
+}
+
+
+
+
+
+
+/*SISTEMAS OPERATIOVOSKASODKASODKSA*/
+
+.Sistemas_Operativos{
+    width: 100%;
+    height: 170vh;
+    background: #ffffff;
+    padding-top: 70px;
+}
+
+.linux{
+    height: 500px;
+    width: 0 auto;
+    background-color: #fff;
+}
+.linuxx{
+    height: 400px;
+    transition: transform 0.4s ease;
+}
+.linuxx:hover{
+    transform: scale(1.1);
+}
+
+.text-linux{
+    font-family: poppins;
+    padding-top: 50px;
+}
+
+.title-linux{
+    font-size: 40px;
+}
+
+.container-madre{
+    display: flex;
+    padding-top: 60px;
+}
+.container-padre{
+    display: flex;
+    padding-top: 30px;
+}
+
+.windows{
+    height: 400px;
+    padding-left: 120px;
+    transition: transform 0.4s ease;
+}
+
+.windows:hover{
+    transform: scale(1.1);
+}
+.title-Windows{
+    font-size: 40px;
+}
+.text-windows{
+    font-family: poppins;
+    margin-left: 160px;
+    padding-top: 70px;
+}
+
+/*HERRAMIENTAS QUE USOOO (VSCODE :,v)*/
+
+.Herramientas_de_Desarrollo{
+    height: 600px;
+    width: 0 auto;
+    font-family: poppins;
+}
+.madrecita{
+    display: flex;
+}
+
+.title2{
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: poppins;
+    border-bottom: 2px solid #000000;
+}
+.vscodee{
+    height: 400px;
+    padding-top: 20px;
+    transition: transform 0.4s ease;
+}
+
+.vscodee:hover{
+    transform: scale(1.1);
+}
+.skills4{
+    padding-top: 100px;
+    margin-left: 20px;
+}
+.skills4 h2{
+    font-size: 30px;
+}
+
+/*BASE DE DATOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS*/
+
+.Bases_de_Datos{
+    background: #fff;
+    height: 700px;
+    width: 0 auto;
+}
+
+.title10{
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: poppins;
+    border-bottom: 2px solid #000000;
+}
+.text_base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 160px;
+    font-family: poppins;
+}
+
+
+/*FOOOOOTEER*/
+
+footer{
+    background-color: rgb(230, 230, 230);
+    width: 0 auto;
+    height: 400px;
+}
+
+/*VIENE EL PADREEE*/
+.container-Padre{
+    display: flex;
+
+}
+
+/*Adeus mi gente*/
+
+.resume{
+    padding-top: 100px;
+    margin-left: 200px;
+    font-family: poppins;
+}
+.resume h3{
+    font-weight: 300;
+}
+
+
+.info{
+    padding-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.info a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: poppins;
+    transition: transform 0.3s ease;
+}
+.info a:hover{
+    transform: translateY(-5px);
+}
+
+.contactop{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: poppins;
+    transition: transform 0.4s ease;
+}
+.contactop:hover{
+    transform: scale(1.1);
+}
+
+.secciones{
+    padding-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.secciones a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: poppins;
+    transition: transform 0.3s ease;
+}
+.secciones a:hover{
+    transform: translateY(-5px);
+}
+
+.seccions{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: poppins;
+    transition: transform 0.4s ease;
+}
+.seccions:hover{
+    transform: scale(1.1);
+}
+
+/*Derechos q no tengo AJSDASJDA*/
+
+.texto{
+    background-color: #000;
+    color: #fff;
+    font-family: poppins;
+    margin-top: 20px;
+    width: 0 auto;
+    height: 80px;
+}
+.texto h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+
+/*SCROOOLL TO TOP GUYSS*/
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #646464;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.top{
+    height: 80px;
+    transition: transform 0.4s ease;
+}
+
+.top:hover{
+    transform: translateY(-5px);
+}
+
+.scroll-to-top:hover {
+    background-color: #767676;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/*detallitos*/
+.wasape{
+    transition: transform 0.4s ease;
+}
+.wasape:hover{
+    transform: scale(1.3);
+}
+.igpe{
+    transition: transform 0.4s ease;
+}
+.igpe:hover{
+    transform: scale(1.3);
+}
+.empe{
+    transition: transform 0.4s ease;
+}
+.empe:hover{
+    transform: scale(1.3);
+}
+.dispe{
+    transition: transform 0.4s ease;
+}
+.dispe:hover{
+    transform: scale(1.3);
+}
